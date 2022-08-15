@@ -22,11 +22,11 @@ export class Game {
     private readonly scoreInput: HTMLInputElement;
 
     constructor() {
-
+        
     }
 
     addEventListeners() {
-        this.reset(new SubmitEvent('reset', {submitter: this.formPlay}))
+
     }
 
     private reset(event: SubmitEvent) {
